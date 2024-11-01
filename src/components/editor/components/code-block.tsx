@@ -37,9 +37,9 @@ const CodeBlock = ({
     }
   }, [])
 
-  const onLanguageSelect = (selectedLanguage) => {
-    updateAttributes({ language: selectedLanguage })
-  }
+  const onLanguageSelect = (selectedLanguage: string) => {
+  updateAttributes({ language: selectedLanguage });
+};
 
   return (
     <NodeViewWrapper className='relative group'>
